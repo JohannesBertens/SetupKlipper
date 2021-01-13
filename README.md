@@ -1,4 +1,11 @@
 # How I Setup Klipper on a fresh Raspberry PI
+- [Choose your PI](#choose-your-pi)
+- [Prepare the Raspberry PI](#prepare-the-raspberry-pi)
+- [Connect to your pi and update](#connect-to-your-pi-and-update)
+- [Install the install script for Klipper and install those](#install-the-install-script-for-klipper-and-install-those)
+- [Setup the webcam](#setup-the-webcam)
+- [Setup the file share](#setup-the-file-share)
+
 
 ## Choose your PI
 I have experience with most Raspberry PIs now. Because I started out with Octoprint, I started out with a Raspberry PI 4.
@@ -30,7 +37,7 @@ https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_
 - [x] Enable SSD: Create an empty file with the name 'SSH' and put it on the BOOT partition.
 5. Put your pi in your case (optional) with your camera (optional) and power it up!
 
-# Connect to your pi & update
+## Connect to your pi and update
 So, there's this nifty thing where devices on your local network are now addressable with \<hostname>.local.
 The raspberry pi has "raspberrypi" as hostname, so connect to 'raspberrypi.local' with Putty (or another SSH client)
 
@@ -40,7 +47,7 @@ Do a few things:
 3. [optional] Add your RSA public fingerprint to .ssh (chmod 700) / authorized_keys (chmod 644)
 4. sudo apt-get update && sudo apt-get upgrade
 
-# Install the install script for Klipper++ and install those
+## Install the install script for Klipper and install those
 This is awesome by `th33xitus`:
 
 https://github.com/th33xitus/kiauh
@@ -60,8 +67,8 @@ I install:
 - [x] Mainsail (Website, uses API)
 - [x] KlipperScreen (I have a touchscreen attached)
 
-# Setup the (web)cam
+## Setup the webcam
 This works for the PI cam or any attached USB webcam.
 
-# Setup the file share
+## Setup the file share
 
