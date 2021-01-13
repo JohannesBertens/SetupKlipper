@@ -40,7 +40,7 @@ Do a few things:
 3. [optional] Add your RSA public fingerprint to .ssh (chmod 700) / authorized_keys (chmod 644)
 4. sudo apt-get update && sudo apt-get upgrade
 
-# Install the install script for Klipper and everything
+# Install the install script for Klipper++ and install those
 This is awesome by `th33xitus`:
 
 https://github.com/th33xitus/kiauh
@@ -60,4 +60,8 @@ I install:
 - [x] Mainsail (Website, uses API)
 - [x] KlipperScreen (I have a touchscreen attached)
 
+# Setup the (web)cam
+This works for the PI cam or any attached USB webcam.
+
+# Setup the file share
 
