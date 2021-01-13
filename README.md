@@ -40,4 +40,24 @@ Do a few things:
 3. [optional] Add your RSA public fingerprint to .ssh (chmod 700) / authorized_keys (chmod 644)
 4. sudo apt-get update && sudo apt-get upgrade
 
-# Install the install script
+# Install the install script for Klipper and everything
+This is awesome by `th33xitus`:
+
+https://github.com/th33xitus/kiauh
+
+```
+sudo apt-get install git -y
+cd ~
+git clone https://github.com/th33xitus/kiauh.git
+cd kiauh
+chmod +x kiauh.sh scripts/*
+./kiauh.sh
+```
+
+I install:
+- [x] Klipper (duh)
+- [x] Moonraker (API, required)
+- [x] Mainsail (Website, uses API)
+- [x] KlipperScreen (I have a touchscreen attached)
+
+
